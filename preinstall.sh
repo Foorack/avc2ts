@@ -5,7 +5,7 @@ make
 cd ../
 
 #For libfdkaac
-sudo apt-get -y install autoconf libtool
+sudo apt-get -y install autoconf automake libtool
 git clone https://github.com/mstorsjo/fdk-aac
 cd fdk-aac
 ./autogen.sh
